@@ -184,7 +184,7 @@ template {
 #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span,
 #aside-content .card-categories ul.card-category-list > .card-category-list-item a span,
 .site-data > a .headline,
-#nav #blog-info,
+#nav #none_space,
 #pagination .prev_info,
 #pagination .next_info,
 #sidebar #sidebar-menus .menus_items .site-page {
@@ -1374,7 +1374,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: var(--global-font), Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'AlibabaPuHuiTi2.0', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;;
+  font-family: var(--global-font), Consolas_1, -apple-system, '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑', 'PingFang SC', 'Microsoft Yahei';
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1400,7 +1400,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://source.fomal.cc/img/dm1.webp);
+  background: url(https://source.fomal.cc/img/home_bg.webp);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -1505,7 +1505,7 @@ a:hover {
 .site-name,
 #aside-content .author-info__name,
 #aside-content .author-info__description {
-  font-family: var(--global-font);
+  font-family: var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑';
 }
 .is-center {
   text-align: center;
@@ -1673,7 +1673,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: 14px;
-  font-family: Consolas_1, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", 'AlibabaSans', sans-serif !important;
+  font-family: Consolas_1, var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑', "Microsoft YaHei", Menlo, "PingFang SC" !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -1986,7 +1986,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
-  font-family: var(--global-font);
+  font-family: var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑';
 }
 @media screen and (max-width: 768px) {
   .error404 #error-wrap .error-content .error-info {
@@ -3308,13 +3308,6 @@ h1.page-title + .tag-cloud-list {
   background-position: bottom;
   background-size: cover;
 }
-#footer:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  content: '';
-}
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
@@ -3673,7 +3666,7 @@ h1.page-title + .tag-cloud-list {
   -ms-filter: none;
   filter: none;
 }
-#nav #blog-info {
+#nav #none_space {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -o-box-flex: 1;
@@ -3683,7 +3676,7 @@ h1.page-title + .tag-cloud-list {
   flex: 1;
   color: var(--light-grey);
 }
-#nav #blog-info .site-icon {
+#nav #none_space .site-icon {
   margin-right: 6px;
   height: 36px;
   vertical-align: middle;
