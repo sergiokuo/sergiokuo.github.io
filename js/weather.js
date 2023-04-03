@@ -17,7 +17,6 @@ WIDGET = {
       "fixed": "false",
       "vertical": "top",
       "horizontal": "left",
-      // "city": "CN101200105",
-      "key": "83928fa63d134e84ade7c9cf35762e19"
+      "key": "82f29186c49b4a1ca88c56b0d720aed8"
     }
   }
