@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>卡布琦诺の小窝</title>
+  
+  
+  <link href="http://galaxy47.top/atom.xml" rel="self"/>
+  
+  <link href="http://galaxy47.top/"/>
+  <updated>2023-04-19T18:39:10.260Z</updated>
+  <id>http://galaxy47.top/</id>
+  
+  <author>
+    <name>卡布琦诺</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://galaxy47.top/2023/02/02/firstblog/"/>
+    <id>http://galaxy47.top/2023/02/02/firstblog/</id>
+    <published>2023-02-02T14:05:59.499Z</published>
+    <updated>2023-04-19T18:39:10.260Z</updated>
+    
+    <content type="html"><![CDATA[<p>first blog</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;first blog&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
