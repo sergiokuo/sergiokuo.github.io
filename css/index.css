@@ -1384,7 +1384,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: var(--global-font), Consolas_1, -apple-system, '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑', 'PingFang SC', 'Microsoft Yahei';
+  font-family: var(--global-font), Consolas_1, -apple-system, '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '得意黑', "PingFang SC", 'Microsoft Yahei';
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1515,7 +1515,7 @@ a:hover {
 .site-name,
 #aside-content .author-info__name,
 #aside-content .author-info__description {
-  font-family: var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑';
+  font-family: var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '得意黑';
 }
 .is-center {
   text-align: center;
@@ -1683,7 +1683,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: 14px;
-  font-family: Consolas_1, var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑', "Microsoft YaHei", Menlo, "PingFang SC" !important;
+  font-family: Consolas_1, var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', "Microsoft YaHei", Menlo, "PingFang SC" !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -1996,7 +1996,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
-  font-family: var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '思源黑体', '思源宋体', '方正黑体', '方正楷体', '得意黑';
+  font-family: var(--global-font), '阿里巴巴普惠体2.0', 'HarmonyOS_Sans', 'MiSans', '得意黑';
 }
 @media screen and (max-width: 768px) {
   .error404 #error-wrap .error-content .error-info {
